@@ -1,0 +1,35 @@
+{
+  "name": "catalystx-backend",
+  "version": "1.0.0",
+  "description": "CatalystX Community Backend - Authentication and API Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "catalystx",
+    "auth",
+    "mongodb",
+    "express",
+    "jwt",
+    "api"
+  ],
+  "author": "CatalystX Team",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
